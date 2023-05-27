@@ -29,7 +29,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.523);
+    background-color: rgba(0, 0, 0, 0.465);
     z-index: 1;
 }
 
@@ -38,9 +38,9 @@
 }
 
 /* .contenedor{
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   } */
 
 /* .item{
@@ -50,7 +50,22 @@ align-items: center;
     flex-basis: auto;
   } */
 
-.card {
-    height: 200px;
-    width: 100%;
+.logo-footer img {
+    width: 200px;
 }
+
+.card-speakers img {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.text-justify {
+    text-align: justify;
+}
+
+textarea {
+    resize: none;
+}
+
