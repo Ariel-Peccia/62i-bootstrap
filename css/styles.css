@@ -69,3 +69,10 @@ textarea {
     resize: none;
 }
 
+/* .img-contact {
+    width: 100%;
+} */
+
+.card-contact img {
+    object-fit: cover;
+}
